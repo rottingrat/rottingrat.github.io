@@ -1,0 +1,104 @@
+body {
+    font-family: "Roboto",sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #dbddef;
+    background-color: #1c1f46;
+}
+
+.header .nav .nav-links {
+    width: 1000px;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+.character-list .character-portrait {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 12.5%;
+    padding: 15px;
+}
+
+.character-list .character-portrait .character-icon {
+    width: 70px;
+    height: 70px;
+    background: #303b7a;
+    border-radius: 4px;
+    transition: -webkit-transform .3s;
+    transition: transform .3s;
+    transition: transform .3s,-webkit-transform .3s;
+}
+
+.character-list .character-portrait .character-type {
+    right: 15px;
+    padding: 3px;
+}
+
+.character-list .character-portrait .character-type, .character-list .character-portrait .character-position {
+    position: absolute;
+    top: 10px;
+    width: 24px;
+    height: 24px;
+    /* background: #303b7a; */
+    /* border-radius: 100px; */
+    transition: -webkit-transform .3s;
+    transition: transform .3s;
+    transition: transform .3s,-webkit-transform .3s;
+}
+
+.rarity-common {
+    background-image: url(https://rerollcdn.com/STARRAIL/Rarity/5_sm.png)!important;
+}
+
+.header .nav, .header .toolbar .toolbar-active {
+    background: #2a529d;
+}
+
+}
+.header .nav {
+    height: 50px;
+    background: #1c1f46;
+    display: flex;
+    justify-content: center;
+}
+
+.header .nav .nav-links .nav-item .nav-link {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 100%;
+    color: #bec1dd;
+    font-size: 16px;
+    padding: 0 20px;
+    transition: all .3s;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
+a {
+    color: #52c7b8;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}

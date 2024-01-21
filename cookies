@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="nav">
+			<ul class="nav-links">
+				<li class="nav-item">
+					<a href="/cookies" class="nav-link active" aria-current="page">Cookies</a>
+				</li>
+				<li class="nav-item">
+					<a href="/teams" class="nav-link active" aria-current="page">Teams</a>
+				</li>
+			</ul>
+		</div>
+		<div class="character-list">
+			<a href="/cookies/gingerbrave/" class="character-portrait">
+				<img alt="Gingerbrave" class="character-icon rarity-common" src="https://static.wikia.nocookie.net/cookierunkingdom/images/3/3f/Gingerbrave_head.png">
+				<img alt="Charge" class="character-type" src="https://static.wikia.nocookie.net/cookierunkingdom/images/d/db/Charge.png">
+				<img alt="Front" class="character-position" src="https://static.wikia.nocookie.net/cookierunkingdom/images/9/9e/Front.png">
+				<h2 class="character-name">Gingerbrave</h2>
+			</a>
+		</div>
+	</body>
+</html>
